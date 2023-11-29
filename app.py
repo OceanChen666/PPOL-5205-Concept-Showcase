@@ -24,7 +24,7 @@ app.add_app("Data",data.app)
 app.add_app("K-means",kmeans.app)
 app.add_app("AHC",ahc.app)
 app.add_app("DBSCAN",dbscan.app)
-app.add_app("Conclusion",conclusion.app)
+# app.add_app("Conclusion",conclusion.app)
 # The main app
 app.run()
 
