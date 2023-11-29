@@ -12,7 +12,7 @@ st.sidebar.markdown('''
 # About this page
 ''')
 
-st.sidebar.info("This is a tutorial on how to choose the best parameter in cluster analysis based on the Offshore oil platform in the U.S.  You can find all the corresponding code in this [GitHub]() repo.\n\n Created by [Ocean Chen]")
+st.sidebar.info("This is a tutorial on how to choose the best parameter in cluster analysis based on the Offshore oil platform in the U.S.  You can find all the corresponding code in this [GitHub](https://github.com/OceanChen666/PPOL-5205-Concept-Showcase) repo.\n\n Created by [Ocean Chen]")
 
 
 
