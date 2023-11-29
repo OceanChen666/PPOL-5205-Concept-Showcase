@@ -1,13 +1,13 @@
 import streamlit as st
 
 def app():
+
+    st.image("Images/Offshore_platform.png")
     st.markdown(
     """
 # Tutorial of Cluster Analysis -Offshore Oil Platform Use case
 
-Hi! 
-
-In this article, we will delve into what cluster analysis entails, 
+Hi! In this article, we will delve into what cluster analysis entails, 
 how it is used in public infrastructure data, and how hyperparameters
 change the clustering result.
 

@@ -61,6 +61,7 @@ def app():
     df = df.drop(columns = ["Unnamed: 0"])
     for_cluster = for_cluster.drop(columns = ["Unnamed: 0"])
 
+    st.sidebar.subheader("Parameter Setting")
     eps_set = st.sidebar.slider("Epsilon",
                                 min_value=0.1, max_value=0.8, 
                                 value=0.5,  step=0.1)
@@ -68,6 +69,7 @@ def app():
                                 min_value=10, max_value=20, 
                                 value=10,  step=1)
     
+
     st.write("DBSCAN is an extremely powerful clustering algorithm. The acronym stands for Density-based Spatial Clustering of Applications with Noise. As the name suggests, the algorithm uses density to gather points in space to form clusters. The algorithm can be very fast once it is properly implemented. However, in this article, we would rather be talking about tuning the parameters of DBSCAN for a better utility than the algorithm implementation itself. (Implementation of DBSCAN is very simple. The harder part, if any, would be structuring data for neighbourhood lookups.)")
 
     st.subheader("Epsilon parameter of DBSCAN")

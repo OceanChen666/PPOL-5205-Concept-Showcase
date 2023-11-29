@@ -61,6 +61,7 @@ def app():
     df = df.drop(columns = ["Unnamed: 0"])
     for_cluster = for_cluster.drop(columns = ["Unnamed: 0"])
 
+    st.sidebar.subheader("Parameter Setting")
     n_cluster_set = st.sidebar.slider("N cluster",
                                 min_value=3, max_value=8, 
                                 value=3,  step=1)

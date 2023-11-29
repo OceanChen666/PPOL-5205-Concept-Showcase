@@ -14,6 +14,8 @@ def app():
     df = df.drop(columns = ["Unnamed: 0"])
     for_cluster = for_cluster.drop(columns = ["Unnamed: 0"])
     
+    st.sidebar.subheader("Parameter Setting")
+
     options = ['ward', 'complete', 'average', 'single']
     linkage_set = st.sidebar.selectbox(
     "Choose an linkage method:",
@@ -29,7 +31,7 @@ Hierarchical clustering algorithms group similar objects into groups called clus
     
     st.subheader("Linkage Method")
     st.image("Images/ahc1.png")
-    
+
     if st.sidebar.button('Press to use Update Parameter'):
         st.sidebar.markdown('The **Parameter** set is updated.')
 
